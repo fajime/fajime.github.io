@@ -345,7 +345,7 @@ class AuthService {
         const { API_URL, fields, CLIENT_ID, CLIENT_PASSWORD, username, password } = _environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"];
         const headersToken = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({
-                'Content-Type': 'application/x-www-form-urlencoded',
+                'Content-Type': 'application/x-www-form-urlencodedd',
                 'Authorization': 'Basic ' + btoa(`${CLIENT_ID}:${CLIENT_PASSWORD}`)
             })
         };
