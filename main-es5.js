@@ -683,7 +683,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               password = _environments_environ.password;
           var headersToken = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({
-              'Content-Type': 'application/x-www-form-urlencodedd',
+              'Content-Type': 'application/x-www-form-urlencoded',
               'Authorization': 'Basic ' + btoa("".concat(CLIENT_ID, ":").concat(CLIENT_PASSWORD))
             })
           };
